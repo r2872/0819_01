@@ -14,4 +14,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <Button
+        android:text="로그 확인용 버튼 2"
+        android:id="@+id/log_btn02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
