@@ -9,15 +9,27 @@
     tools:context=".MainActivity">
 
     <Button
-        android:text="로그 확인용 버튼 1"
         android:id="@+id/log_btn01"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="로그 확인용 버튼 1" />
 
     <Button
-        android:text="로그 확인용 버튼 2"
         android:id="@+id/log_btn02"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="로그 확인용 버튼 2" />
+
+    <Button
+        android:id="@+id/toast_btn01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="토스트 띄우기" />
+
+    <Button
+        android:id="@+id/snack_btn01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="스낵 띄우기" />
 
 </LinearLayout>
